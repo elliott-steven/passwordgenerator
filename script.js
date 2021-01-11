@@ -9,7 +9,7 @@ var confirmUppercase;
 var confirmLowercase;
 // Start Password variable values: 
 // Special characters 
-character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
+character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"];
 // Numeric characters
 number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Alphabetical characters
@@ -137,8 +137,6 @@ copy.addEventListener("click", function () {
     copyPassword();
 });
 // This copies the password value - works
-// Code example demonstrated in a youtube video: 
-// Source: https://youtu.be/9sT03jEwcaw
 function copyPassword() {
     document.getElementById("password").select();
     document.execCommand("Copy");
