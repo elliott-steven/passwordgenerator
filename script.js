@@ -22,8 +22,6 @@ function generatePassword() {
 
     var userArr = [];
 
-    uppercaseArr[1]
-
     var promptCharacters = prompt("How many characters do you want? (Between 8 and 128)");
     var promptNumbers = confirm("Do you want numbers in your password?");
     var promptUpper = confirm("Do you want UPPERCASE letters in your password?");

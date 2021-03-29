@@ -5,6 +5,8 @@ I have completed the creating of a password generator to include all of the foll
 Site is here: https://elliott-steven.github.io/passwordgenerator/
 Git repo is here: https://github.com/elliott-steven/passwordgenerator.git
 
+Updated on 3/28/21
+
 
 ## Acceptance Criteria
 
