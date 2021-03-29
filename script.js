@@ -77,6 +77,12 @@ function writePass() {
 
 function copyClipboard() {
 
-    genBtn.addEventListener("click", writePass);
+    var copy = document.querySelector("#copy");
+
+get.addEventListener("click", function () {
+    copied = copyClipboard();
+    document.getElementById("password").placeholder = copied;
+});
+
 }
 
